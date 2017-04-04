@@ -9,3 +9,11 @@ Let Adventure Portal help you explore your interests and help you embark on your
 * Create activities that other people can browse and join
 * Secure login via the UH authentication system
 * Browse for new activites and adventures based on your interests
+
+# Page Navigation
+## Landing Page
+Logged out users are presented with information about Adventure Portal and are unable to view featured activities until the user logs in. The user can log in by selecting the "login" link on the top right of the navigation bar.
+
+## Home Page
+After logging in, the user's dashboard with pinned projects are shown as well as featured/suggested activities. These matches are based on the interests listed in the user's profile. For a new user with no added activities, the Portal will ask the user to update his/her interests in order to present similar related activities. 
+
