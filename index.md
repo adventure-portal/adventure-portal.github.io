@@ -3,6 +3,8 @@
 * [About Adventure Portal](#about-adventure-portal)
   * [Key Features](#key-features)
   * [Navigation](#navigation)
+* [Development History](#development-history)
+  * [Milestone 1](#milestone-1-basic-product-and-deployment)
 
 # About Adventure Portal
 Adventure Portal is a tool built by students at the University of Hawaii to help members of the UH community with find exciting adventures to embark on and organize activities with similar minded people. Have an awesome hangout spot that would be perfect on the weekends? Want to share your best getaway activity? Or do you just want to explore and find something new with other students who just want to do the same?
@@ -30,3 +32,26 @@ After logging in, the user's dashboard with pinned projects are shown as well as
 Users can find new adventures created by the community and sort by the most popular or upcoming events.
 
 ![](images/adventures-page.png)
+
+## Development History
+
+### Milestone 1: Basic Product and Deployment
+The goal of Milestone 1 is to have a minimum working product of Adventure Portal. Milestone 1 is implemented and managed as [Adventure Portal Milestone M1](https://github.com/adventure-portal/adventure-portal/projects/1)
+
+The following pages and features will be implemented:
+* Home Page
+  * Display a landing page if user is not logged in
+  * Display the user's dashboard if logged in
+* Calendar Page
+  * User can view different activites on a calendar
+  * Able to filter activites by tags and/or location
+* Activites Creation Page
+  * Fields
+    * Title
+    * Description
+    * Upload Image
+    * Related Interests
+* Implement UH CAS Login
+* UsersCollection
+* ActivitesCollection
+* Deploy Adventure Portal to Galaxy
