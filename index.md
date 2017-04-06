@@ -33,9 +33,9 @@ Users can find new adventures created by the community and sort by the most popu
 
 ![](images/adventures-page.png)
 
-## Development History
+# Development History
 
-### Milestone 1: Basic Product and Deployment
+## Milestone 1: Basic Product and Deployment
 The goal of Milestone 1 is to have a minimum working product of Adventure Portal. Milestone 1 is implemented and managed as [Adventure Portal Milestone M1.](https://github.com/adventure-portal/adventure-portal/projects/1)
 
 The following pages and features will be implemented:
