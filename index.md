@@ -5,6 +5,7 @@
   * [Navigation](#navigation)
 * [Development History](#development-history)
   * [Milestone 1](#milestone-1-basic-product-and-deployment)
+  * [Milestone 2](#milestone-2-data-models-routing-and-ui)
 
 # About Adventure Portal
 [Adventure Portal](http://adventure-portal.meteorapp.com) is a tool built by students at the University of Hawaii to help members of the UH community with find exciting adventures to embark on and organize activities with similar minded people. Have an awesome hangout spot that would be perfect on the weekends? Want to share your best getaway activity? Or do you just want to explore and find something new with other students who just want to do the same?
@@ -90,4 +91,4 @@ Unauthorized Page: In case user tries to navigate anywhere without signing in or
 <img width="720" alt="screenshot 2017-04-13 00 55 08" src="https://cloud.githubusercontent.com/assets/10985239/25002059/0d75fbee-1fe4-11e7-8063-f46649a4b52d.png">
 
 ## Milestone 2: Data Models, Routing, and UI
-The goal for Milestone 2 is to create tests for the data models, complete activity collection, connect data models to UI, provide routing from cards, icons, and buttons, and to continue working on the UI and layout of the site. Milestone 2 is implemented and managed as [Adventure Portal Milestone M2.](https://github.com/adventure-portal/adventure-portal/projects/2) Milestone 2 began on April 13, 2017.
+The goal for Milestone 2 is to create tests for the data models, complete ActivitesCollection, connect data models to UI, provide routing from cards, icons, and buttons, and to continue working on the UI and layout of the site. Milestone 2 is implemented and managed as [Adventure Portal Milestone M2.](https://github.com/adventure-portal/adventure-portal/projects/2) Milestone 2 began on April 13, 2017.
