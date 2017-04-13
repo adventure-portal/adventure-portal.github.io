@@ -74,7 +74,7 @@ Dashboard page: Implemented cards with hover over hidden icon buttons for saving
 <img width="723" alt="screenshot 2017-04-13 00 48 38" src="https://cloud.githubusercontent.com/assets/10985239/25001925/5e720034-1fe3-11e7-8ced-e02d119671ad.png">
 
 Find adventures page: Search for adventures/events.
-![](images/find-adventure-page-v2.PNG)
+![](images/find-adventures-page-v2.PNG)
 
 My profile page: Implemented profile using seed data for user collection to show visual.
 <img width="704" alt="screenshot 2017-04-13 00 27 45" src="https://cloud.githubusercontent.com/assets/10985239/25001972/8d9df55c-1fe3-11e7-9eb7-a50aca4e7bd5.png">
