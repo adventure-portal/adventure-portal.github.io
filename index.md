@@ -90,13 +90,19 @@ My profile page: Implemented profile using seed data for user collection to show
 Unauthorized Page: In case user tries to navigate anywhere without signing in or proper authorization
 <img width="720" alt="screenshot 2017-04-13 00 55 08" src="https://cloud.githubusercontent.com/assets/10985239/25002059/0d75fbee-1fe4-11e7-8063-f46649a4b52d.png">
 
+
 Milestone 1 was implemented as AdventurePortal GitHub Milestone M1:
+
 ![](images/m1-milestone.png)
 
+
 Milestone 1 consisted of thirteen issues, and progress was managed via the AdventurePortal GitHub Project M1:
+
 ![](images/m1-project.png)
 
+
 Each issue was implemented in its own branch, and merged into master when completed:
+
 ![](images/m1-commits.png)
 ## Milestone 2: Data Models, Routing, and UI
 The goal for Milestone 2 is to create tests for the data models, complete ActivitesCollection, connect data models to UI, provide routing from cards, icons, and buttons, and to continue working on the UI and layout of the site. Milestone 2 is implemented and managed as [Adventure Portal Milestone M2.](https://github.com/adventure-portal/adventure-portal/projects/2) Milestone 2 began on April 13, 2017.
