@@ -7,7 +7,7 @@
   * [Milestone 1](#milestone-1-basic-product-and-deployment)
 
 # About Adventure Portal
-Adventure Portal is a tool built by students at the University of Hawaii to help members of the UH community with find exciting adventures to embark on and organize activities with similar minded people. Have an awesome hangout spot that would be perfect on the weekends? Want to share your best getaway activity? Or do you just want to explore and find something new with other students who just want to do the same?
+[Adventure Portal](http://adventure-portal.meteorapp.com) is a tool built by students at the University of Hawaii to help members of the UH community with find exciting adventures to embark on and organize activities with similar minded people. Have an awesome hangout spot that would be perfect on the weekends? Want to share your best getaway activity? Or do you just want to explore and find something new with other students who just want to do the same?
 
 Let Adventure Portal help you explore your interests and help you embark on your next adventure.
 
@@ -21,22 +21,26 @@ Let Adventure Portal help you explore your interests and help you embark on your
 ### Landing Page
 Logged out users are presented with information about Adventure Portal and are unable to view featured activities until the user logs in. The user can log in by selecting the "login" link on the top right of the navigation bar.
 
-![](images/landing-page.png)
+![](images/landing-page-v2.png)
 
 ### Home Page
 After logging in, the user's dashboard with pinned projects are shown as well as featured/suggested activities. These matches are based on the interests listed in the user's profile. For a new user with no added activities, the Portal will ask the user to update his/her interests in order to present similar related activities. 
 
-![](images/dashboard.png)
+![](https://cloud.githubusercontent.com/assets/10985239/25001925/5e720034-1fe3-11e7-8ced-e02d119671ad.png)
 
 ### Find Adventures Page
 Users can find new adventures created by the community and sort by the most popular or upcoming events.
 
-![](images/adventures-page.png)
+![](images/find-adventures-page-v2.PNG)
+
+### User Profile Page
+Display name, email, interests, photo, and bio of the user. Also displays adventures the user has favorited
+![](https://cloud.githubusercontent.com/assets/10985239/25001972/8d9df55c-1fe3-11e7-9eb7-a50aca4e7bd5.png)
 
 # Development History
 
 ## Milestone 1: Basic Product and Deployment
-The goal of Milestone 1 is to have a minimum working product of Adventure Portal. Milestone 1 is implemented and managed as [Adventure Portal Milestone M1.](https://github.com/adventure-portal/adventure-portal/projects/1)
+The goal of Milestone 1 is to have a minimum working product of Adventure Portal. Milestone 1 is implemented and managed as [Adventure Portal Milestone M1.](https://github.com/adventure-portal/adventure-portal/projects/1) Milestone 1 was completed on April 13, 2017.
 
 The following pages and features will be implemented:
 * Home Page
@@ -84,3 +88,6 @@ My profile page: Implemented profile using seed data for user collection to show
 
 Unauthorized Page: In case user tries to navigate anywhere without signing in or proper authorization
 <img width="720" alt="screenshot 2017-04-13 00 55 08" src="https://cloud.githubusercontent.com/assets/10985239/25002059/0d75fbee-1fe4-11e7-8063-f46649a4b52d.png">
+
+## Milestone 2: Data Models, Routing, and UI
+The goal for Milestone 2 is to create tests for the data models, complete activity collection, connect data models to UI, provide routing from cards, icons, and buttons, and to continue working on the UI and layout of the site. Milestone 2 is implemented and managed as [Adventure Portal Milestone M2.](https://github.com/adventure-portal/adventure-portal/projects/2) Milestone 2 began on April 13, 2017.
