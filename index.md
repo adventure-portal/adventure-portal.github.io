@@ -42,16 +42,45 @@ The following pages and features will be implemented:
 * Home Page
   * Display a landing page if user is not logged in
   * Display the user's dashboard if logged in
-* Calendar Page
-  * User can view different activites on a calendar
-  * Able to filter activites by tags and/or location
-* Activites Creation Page
-  * Fields
-    * Title
-    * Description
-    * Upload Image
-    * Related Interests
+* ~~Calendar Page~~ (Pushed back)
+  * ~~User can view different activites on a calendar~~
+  * ~~Able to filter activites by tags and/or location~~
+* ~~Activites Creation Page~~ (Pushed back)
+  * ~~Fields~~
+    * ~~Title~~
+    * ~~Description~~
+    * ~~Upload Image~~
+    * ~~Related Interests~~
+* **Dashboard Page**
+* **Find Adventures Page**
+* **User Profile Page**
 * Implement UH CAS Login
 * UsersCollection
 * ActivitesCollection
 * Deploy Adventure Portal to Galaxy
+
+Mockups for the following pages were developed.
+Expanded on some themes in the pages we had for the final-project mockup.
+Note: Some pages will not display until you are logged in. To login, use the dropdown.
+
+Landing page: Added more content to the landing page
+![1](https://cloud.githubusercontent.com/assets/13230589/24143914/79a11564-0dcf-11e7-9fe4-2bcf82efc7e7.JPG)
+<img width="730" alt="screenshot 2017-04-13 00 28 41" src="https://cloud.githubusercontent.com/assets/10985239/25001871/27421914-1fe3-11e7-959a-bce4270ca60a.png">
+
+CAS login page: Implemented the CAS login (one of the requirements)
+<img width="602" alt="screenshot 2017-04-13 00 29 03" src="https://cloud.githubusercontent.com/assets/10985239/25001901/4911fc58-1fe3-11e7-800b-094f7189b1fc.png">
+
+Dashboard page: Implemented cards with hover over hidden icon buttons for saving and adding to calendar options. Organized by recent activity and upcoming events
+<img width="723" alt="screenshot 2017-04-13 00 48 38" src="https://cloud.githubusercontent.com/assets/10985239/25001925/5e720034-1fe3-11e7-8ced-e02d119671ad.png">
+
+Find adventures page: Search for adventures/events.
+![](images/find-adventure-page-v2.PNG)
+
+My profile page: Implemented profile using seed data for user collection to show visual.
+<img width="704" alt="screenshot 2017-04-13 00 27 45" src="https://cloud.githubusercontent.com/assets/10985239/25001972/8d9df55c-1fe3-11e7-9eb7-a50aca4e7bd5.png">
+
+404 page: In case user navigates to unsupported link
+![8](https://cloud.githubusercontent.com/assets/10985239/25001551/b8fc6438-1fe1-11e7-8f7c-53433956408b.JPG)
+
+Unauthorized Page: In case user tries to navigate anywhere without signing in or proper authorization
+<img width="720" alt="screenshot 2017-04-13 00 55 08" src="https://cloud.githubusercontent.com/assets/10985239/25002059/0d75fbee-1fe4-11e7-8063-f46649a4b52d.png">
