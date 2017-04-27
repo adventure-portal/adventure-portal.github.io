@@ -87,7 +87,7 @@ The objective was to complete minimum viable product development of Adventure Po
 
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. Each page was developed as a template and [FlowRouter](https://github.com/kadirahq/flow-router) was used to implement routing to the pages. For login authorization using the University of Hawaii test CAS system, templates from [meteor-example-uh](http://ics-software-engineering.github.io/meteor-example-uh-cas/) were used to guide the implementation. Adventure Portal allows anyone with a UH account to access the system.In addition, authorization was implemented such that users cannot access the profile or filter page associated with another user.
 
-The following mockup pages were implemented:
+The following pages were implemented:
 * Landing Page
 * Home Page (Dashboard)
 * Find Adventures Page
@@ -125,4 +125,31 @@ Each issue was implemented in its own branch, and merged into master when comple
 ![](images/milestone1-4.PNG)
 
 ## Milestone 2: Data Models, Routing, and UI
-The goal for Milestone 2 is to create tests for the data models, complete ActivitesCollection, connect data models to UI, provide routing from cards, icons, and buttons, and to continue working on the UI and layout of the site. Milestone 2 is implemented and managed as [Adventure Portal Milestone M2.](https://github.com/adventure-portal/adventure-portal/projects/2) Milestone 2 began on April 13, 2017.
+The objective was to implement data collections to hold user profiles/activities, dynamic routing, and UI upgrades. Milestone 2 was completed on April 27, 2017. 
+
+The goal for Milestone 2 was to implement tests for the data models, complete the ActivitesCollection and UsersCollection, connect data models to the UI, provide dynamic routing from cards, icons, and buttons, implement dynamic page authentication routing, and to continue working on the UI and layout of the site. The main goal was to implement the data models: the underlying set of Mongo Collections and the operations upon them that would support the Adventures Portal application. We implemented the data model as a set of JavaScript classes. The ActivitiesCollection class and the UsersCollection class provides common fields and operations as these two classes inherit from BaseCollection and provided the persistent data structures useful for Adventure Portal. Also in Milestone 2, we implemented a set of unit tests for the data model classes. These tests ensure we can create, manipulate, and delete the data model documents successfully. 
+
+The following pages were implemented:
+* Loading/Spinner Page
+
+The following features were implemented:
+* Dynamic routing for all pages
+* User authorization
+* ActiviesCollection and BaseCollection
+* Data model connection to pages
+* Landing page animations
+* More content on all pages
+
+Milestone 2 was implemented as [Adventure Portal GitHub Milestone M2](https://github.com/adventure-portal/adventure-portal/milestone/2?closed=1):
+
+INSERT PIC HERE 
+
+Milestone 2 consisted of ten issues, and progress was managed via the [Adventure Portal GitHub Project M2](https://github.com/adventure-portal/adventure-portal/projects/2):
+
+INSERT PIC HERE
+
+Each issue was implemented on its own branch, and merged into master when completed:
+
+![](images/milestone2-3.PNG)
+
+## Milestone 3: 
