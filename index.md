@@ -139,6 +139,8 @@ The following features were implemented:
 * Data model connection to pages
 * Landing page animations
 * More content on all pages
+* Logo
+* On-scroll transparent disappearing navigation bar
 
 Milestone 2 was implemented as [Adventure Portal GitHub Milestone M2](https://github.com/adventure-portal/adventure-portal/milestone/2?closed=1):
 
