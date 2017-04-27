@@ -127,7 +127,7 @@ Each issue was implemented in its own branch, and merged into master when comple
 ## Milestone 2: Data Models, Routing, and UI
 The objective was to implement data collections to hold user profiles/activities, dynamic routing, and UI upgrades. Milestone 2 was completed on April 27, 2017. 
 
-The goal for Milestone 2 was to implement tests for the data models, complete the ActivitesCollection and UsersCollection, connect data models to the UI, provide dynamic routing from cards, icons, and buttons, implement dynamic page authentication routing, and to continue working on the UI and layout of the site. The main goal was to implement the data models: the underlying set of Mongo Collections and the operations upon them that would support the Adventures Portal application. We implemented the data model as a set of JavaScript classes. The ActivitiesCollection class and the UsersCollection class provides common fields and operations as these two classes inherit from BaseCollection and provided the persistent data structures useful for Adventure Portal. Also in Milestone 2, we implemented a set of unit tests for the data model classes. These tests ensure we can create, manipulate, and delete the data model documents successfully. 
+The goal for Milestone 2 was to implement tests for the data models, complete the ActivitesCollection and UsersCollection, connect data models to the UI, provide dynamic routing from cards, icons, and buttons, implement dynamic page authentication routing, and to continue working on the UI and layout of the site. The main goal was to implement the data models: the underlying set of Mongo Collections and the operations upon them that would support the Adventures Portal application. We implemented the data model as a set of JavaScript classes. The ActivitiesCollection class and the UsersCollection class provides common fields and operations as these two classes inherit from BaseCollection and provided the persistent data structures useful for Adventure Portal. 
 
 The following pages were implemented:
 * Loading/Spinner Page
@@ -135,7 +135,7 @@ The following pages were implemented:
 The following features were implemented:
 * Dynamic routing for all pages
 * User authorization
-* ActiviesCollection and BaseCollection
+* ActiviesCollection, UsersCollection, and InterestsCollection
 * Data model connection to pages
 * Landing page animations
 * More content on all pages
