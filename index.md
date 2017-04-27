@@ -19,7 +19,7 @@ Let Adventure Portal help you explore your interests and help you embark on your
 * Secure login via the UH authentication system
 * Browse for new activites and adventures based on your interests
 
-## Navigation
+# Guided Tour
 ### Landing Page
 Logged out users are presented with information about Adventure Portal and are unable to view featured activities until the user logs in. The user can log in by selecting the "login" link on the top right of the navigation bar. 
 
@@ -29,28 +29,78 @@ Logged out users are presented with information about Adventure Portal and are u
 ![](images/landing-4.PNG)
 
 ### Home Page
-After logging in, the user's dashboard with pinned projects are shown as well as featured/suggested activities. These matches are based on the interests listed in the user's profile. For a new user with no added activities, the Portal will ask the user to update his/her interests in order to present similar related activities. 
+After logging in, the user's dashboard with recent/popular activities and upcoming events are displayed as these suggestions are based on the interests listed in the user's profile. For a new user with no added activities, the Portal will ask the user to update his/her interests in order to present similar related activities. 
 
-![](https://cloud.githubusercontent.com/assets/10985239/25001925/5e720034-1fe3-11e7-8ced-e02d119671ad.png)
+![](images/dashboard-1.PNG)
+![](images/dashboard-2.PNG)
+![](images/dashboard-3.PNG)
 
 ### Find Adventures Page
-Users can find new adventures created by the community and sort by the most popular or upcoming events.
+Users can find new adventures created by the community and sort by the most popular or upcoming events. In additions, filters such as highest rated, interest tags, and activity location allow users to quickly search community favorites. Users are able to pin and favorite adventures that interest them which will be saved to their dashboard. 
 
-![](images/find-adventures-page-v2.PNG)
+![](images/adventures-1.PNG)
+![](images/adventures-2.PNG)
 
-### User Profile Page
-Display name, email, interests, photo, and bio of the user. Also displays adventures the user has favorited
-![](https://cloud.githubusercontent.com/assets/10985239/25001972/8d9df55c-1fe3-11e7-9eb7-a50aca4e7bd5.png)
+### My Profile Page
+Your profile page is where you can write your bio, list your interests, and view your pinned/favorited activities. You should make sure to edit your interests to make discovering new adventures easier!
+
+![](images/profile-1.PNG)
+![](images/profile-2.PNG)
+
+### Unauthorized Page
+In case the user tries to navigate anywhere without signing in or lacking authorization. Sometimes you want to "accidently" go into another user's personal space. Sorry, we don't allow that! But don't worry, we'll directly you back safely!
+
+![](images/unauthorized.PNG)
+
+### 404 Page
+In case the user navigates to a nonexistent url. We all get lost at times. No worries, you can safely teleport back home! 
+
+![](images/404.PNG)
+
+# Developers Guide
+
+* To begin working on Adventure Portal, [Meteor](https://www.meteor.com/) must be installed on your machine. 
+* Create a directory to hold the project
+* Clone the project to your machine with:
+```
+git clone https://github.com/adventure-portal/adventure-portal.git
+```
+* cd into the app/ directory and install libraries with:
+```
+meteor npm install
+```
+* Run the application with:
+```
+meteor npm run start
+```
+* Test that Adventure Portal is running on localhost:3000 from any browser. If you have an account on the UH test CAS server, you can login. Note: It may take some time to build the project and start up the application after running the commands.
+
+From here, you can use the editor of your choice to begin modifying Adventure Portal's files. Note that Adventure Portal uses the coding style preferences described by this xml [file](http://courses.ics.hawaii.edu/ics314f16/morea/development-environments/ics-se-code-style.xml). To get an idea of the project structure, it is helpful to note that Adventure Portal is based on the meteor-application-template available [here](https://ics-software-engineering.github.io/meteor-application-template/).
 
 # Development History
+The development process for Adventure Portal consisted of a sequence of milestones which included issues corresponding to 2-3 day tasks. Github projects were used to manage the processing of tasks during a milestone. 
+
+The following sections document the development history of Adventure Portal.
 
 ## Milestone 1: Basic Product and Deployment
-The goal of Milestone 1 is to have a minimum working product of Adventure Portal. Milestone 1 was completed on April 13, 2017.
+The objective was to complete minimum viable product development of Adventure Portal. Milestone 1 was completed on April 13, 2017.
 
-The following pages and features will be implemented:
-* Home Page
-  * Display a landing page if user is not logged in
-  * Display the user's dashboard if logged in
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. Each page was developed as a template and [FlowRouter](https://github.com/kadirahq/flow-router) was used to implement routing to the pages. For login authorization using the University of Hawaii test CAS system, templates from [meteor-example-uh](http://ics-software-engineering.github.io/meteor-example-uh-cas/) were used to guide the implementation. Adventure Portal allows anyone with a UH account to access the system.In addition, authorization was implemented such that users cannot access the profile or filter page associated with another user.
+
+The following mockup pages were implemented:
+* Landing Page
+* Home Page (Dashboard)
+* Find Adventures Page
+* My Profile Page
+* 404 Page
+
+The following features were implemented:
+* UH CAS Login
+* UsersCollection
+* ActivitiesCollection
+* Deploy Adventure Portal to Galaxy
+
+Stretch goals
 * ~~Calendar Page~~ (Pushed back)
   * ~~User can view different activites on a calendar~~
   * ~~Able to filter activites by tags and/or location~~
@@ -60,53 +110,19 @@ The following pages and features will be implemented:
     * ~~Description~~
     * ~~Upload Image~~
     * ~~Related Interests~~
-* **Dashboard Page**
-* **Find Adventures Page**
-* **User Profile Page**
-* Implement UH CAS Login
-* UsersCollection
-* ActivitesCollection
-* Deploy Adventure Portal to Galaxy
 
-Mockups for the following pages were developed.
-Expanded on some themes in the pages we had for the final-project mockup.
-Note: Some pages will not display until you are logged in. To login, use the dropdown.
+Milestone 1 was implemented as [Adventure Portal GitHub Milestone M1](https://github.com/adventure-portal/adventure-portal/milestone/1):
+  
+![](images/milestone1-1.PNG)
+![](images/milestone1-2.PNG)
 
-Landing page: Added more content to the landing page
-![1](images/landing-page-v2.png)
-<img width="730" alt="screenshot 2017-04-13 00 28 41" src="https://cloud.githubusercontent.com/assets/10985239/25001871/27421914-1fe3-11e7-959a-bce4270ca60a.png">
+Milestone 1 consisted of thirteen issues, and progress was managed via the [Adventure Portal GitHub Project M1](https://github.com/adventure-portal/adventure-portal/projects/1):
 
-CAS login page: Implemented the CAS login (one of the requirements)
-<img width="602" alt="screenshot 2017-04-13 00 29 03" src="https://cloud.githubusercontent.com/assets/10985239/25001901/4911fc58-1fe3-11e7-800b-094f7189b1fc.png">
-
-Dashboard page: Implemented cards with hover over hidden icon buttons for saving and adding to calendar options. Organized by recent activity and upcoming events
-<img width="723" alt="screenshot 2017-04-13 00 48 38" src="https://cloud.githubusercontent.com/assets/10985239/25001925/5e720034-1fe3-11e7-8ced-e02d119671ad.png">
-
-Find adventures page: Search for adventures/events.
-![](images/find-adventures-page-v2.PNG)
-
-My profile page: Implemented profile using seed data for user collection to show visual.
-<img width="704" alt="screenshot 2017-04-13 00 27 45" src="https://cloud.githubusercontent.com/assets/10985239/25001972/8d9df55c-1fe3-11e7-9eb7-a50aca4e7bd5.png">
-
-404 page: In case user navigates to unsupported link
-![8](https://cloud.githubusercontent.com/assets/10985239/25001551/b8fc6438-1fe1-11e7-8f7c-53433956408b.JPG)
-
-Unauthorized Page: In case user tries to navigate anywhere without signing in or proper authorization
-<img width="720" alt="screenshot 2017-04-13 00 55 08" src="https://cloud.githubusercontent.com/assets/10985239/25002059/0d75fbee-1fe4-11e7-8063-f46649a4b52d.png">
-
-
-Milestone 1 was implemented as AdventurePortal GitHub Milestone M1:
-
-![](images/m1-milestone.png)
-
-
-Milestone 1 consisted of thirteen issues, and progress was managed via the AdventurePortal GitHub Project M1:
-
-![](images/m1-project.png)
-
+![](images/milestone1-3.PNG)
 
 Each issue was implemented in its own branch, and merged into master when completed:
 
-![](images/m1-commits.png)
+![](images/milestone1-4.PNG)
+
 ## Milestone 2: Data Models, Routing, and UI
 The goal for Milestone 2 is to create tests for the data models, complete ActivitesCollection, connect data models to UI, provide routing from cards, icons, and buttons, and to continue working on the UI and layout of the site. Milestone 2 is implemented and managed as [Adventure Portal Milestone M2.](https://github.com/adventure-portal/adventure-portal/projects/2) Milestone 2 began on April 13, 2017.
