@@ -12,6 +12,7 @@
 
 Let Adventure Portal help you explore your interests and help you embark on your next adventure.
 
+### Try Adventure Portal Now! [Adventure Portal](http://adventure-portal.meteorapp.com)
 ## Key Features
 * Create profiles that list your interests
 * Create activities that other people can browse and join
@@ -20,9 +21,12 @@ Let Adventure Portal help you explore your interests and help you embark on your
 
 ## Navigation
 ### Landing Page
-Logged out users are presented with information about Adventure Portal and are unable to view featured activities until the user logs in. The user can log in by selecting the "login" link on the top right of the navigation bar.
+Logged out users are presented with information about Adventure Portal and are unable to view featured activities until the user logs in. The user can log in by selecting the "login" link on the top right of the navigation bar. 
 
-![](images/landing-page-v2.png)
+![](images/landing-1.PNG)
+![](images/landing-2.PNG)
+![](images/landing-3.PNG)
+![](images/landing-4.PNG)
 
 ### Home Page
 After logging in, the user's dashboard with pinned projects are shown as well as featured/suggested activities. These matches are based on the interests listed in the user's profile. For a new user with no added activities, the Portal will ask the user to update his/her interests in order to present similar related activities. 
