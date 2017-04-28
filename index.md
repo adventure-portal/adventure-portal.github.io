@@ -2,7 +2,7 @@
 
 * [About Adventure Portal](#about-adventure-portal)
   * [Key Features](#key-features)
-  * [Navigation](#navigation)
+  * [Guided Tour](#guided-tour)
 * [Development History](#development-history)
   * [Milestone 1](#milestone-1-basic-product-and-deployment)
   * [Milestone 2](#milestone-2-data-models-routing-and-ui)
