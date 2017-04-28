@@ -144,11 +144,11 @@ The following features were implemented:
 
 Milestone 2 was implemented as [Adventure Portal GitHub Milestone M2](https://github.com/adventure-portal/adventure-portal/milestone/2?closed=1):
 
-INSERT PIC HERE 
+![](images/m2-milestone.png)
 
 Milestone 2 consisted of eleven issues, and progress was managed via the [Adventure Portal GitHub Project M2](https://github.com/adventure-portal/adventure-portal/projects/2):
 
-INSERT PIC HERE
+![](images/m2-project.png)
 
 Each issue was implemented on its own branch, and merged into master when completed:
 
