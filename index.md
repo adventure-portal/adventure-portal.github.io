@@ -155,3 +155,4 @@ Each issue was implemented on its own branch, and merged into master when comple
 ![](images/milestone2-3.PNG)
 
 ## Milestone 3: 
+The objective of Milestone 3 is to implement a saving feature so users can save their favorite adventures, connect the user's favorite activities from the data model to display on their profile, and also to add a page that will allow user's to add their own adventures.  More work will be done on the UI as well. Milestone 3 will begin on April 27, 2017 and will end on May 9, 2017.
