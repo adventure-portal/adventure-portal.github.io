@@ -146,7 +146,7 @@ Milestone 2 was implemented as [Adventure Portal GitHub Milestone M2](https://gi
 
 INSERT PIC HERE 
 
-Milestone 2 consisted of ten issues, and progress was managed via the [Adventure Portal GitHub Project M2](https://github.com/adventure-portal/adventure-portal/projects/2):
+Milestone 2 consisted of eleven issues, and progress was managed via the [Adventure Portal GitHub Project M2](https://github.com/adventure-portal/adventure-portal/projects/2):
 
 INSERT PIC HERE
 
