@@ -155,5 +155,77 @@ Each issue was implemented on its own branch, and merged into master when comple
 
 ![](images/milestone2-3.PNG)
 
-## Milestone 3: 
+## Milestone 3: Filtering/Search, Favorite adventures, Adventure details
 The objective of Milestone 3 is to implement a saving feature so users can save their favorite adventures, connect the user's favorite activities from the data model to display on their profile, and also to add a page that will allow user's to add their own adventures.  More work will be done on the UI as well. Milestone 3 will begin on April 27, 2017 and will end on May 9, 2017.
+
+The following pages were implemented:
+* Dynamic activity detail page
+
+The following features were implemented:
+* Initial database adventures
+* Favorite adventure feature
+* Filtering/Search
+* Dashboard/Find adventure page UI upgrades
+* Save adventures to profile page
+
+Milestone 3 was implemented as [Adventure Portal GitHub Milestone M3](https://github.com/adventure-portal/adventure-portal/milestone/3?closed=1):
+
+![](images/m3-milestone.JPG)
+
+Milestone 3 consisted of seven issues, and progress was managed via the [Adventure Portal GitHub Project M3](https://github.com/adventure-portal/adventure-portal/projects/3):
+
+![](images/m3-project.JPG)
+
+Each issue was implemented on its own branch, and merged into master when completed:
+
+![](images/milestone3-3.JPG)
+
+# Initial User Study
+
+We surveyed five members of the UH community. We gathered feedback by asking the test users to perform the tasks of adding, editing, and saving an activity, filterting through activities, and browsing through adventures to see if there were any points of confusion along the way. We had the following people test the application.
+
+* Allie Kim
+* Kevin Wong
+* Kevin Cho
+* Andrew Obatake
+* Joslyn Hamada
+
+We received the following feedback:
+
+* User Experience
+  * UH CAS is great
+  * Favorite button should be larger
+  * Hide menubar when scrolling down
+  * Entire cards should be clickable
+  * Be able to upload profile pictures instead of linking urls only
+  * Editing profile is streamlined
+  * Aesthetic 
+  * Animations are cool
+  
+* Adventures/Dashboard pages
+  * Browsing through activities is very easy
+  * Need feedback notification to notify user when successfully favorited activity
+  * Make button to favorite larger
+  * Create notifications for most recent activities
+  * Specific detail page of each project should provide more details
+  * Would be nice to add "back" button after clicking an activity
+  * Add ability to favorite activity on its detail page
+  * Would be nice to have a "scroll to top" button at the bottom of each page
+  * Add notification when remove favorited activity
+  
+* Profile
+  * Ability to edit a specific field instead of having to update all fields
+  * Automatic email and username from CAS UH login is cool
+  * After saving/editing changes, should route back to profile page
+  
+* Search
+  * Would be cool to search for name of activities instead of only interests
+  * Add a button to clear all filters
+  * Make it so all interest tags are not already shown
+
+* Contributors
+  * [Nathan Lam](https://nathancy.github.io/)
+  * [Dylan Nakahodo](https://dylannakahodo.github.io/)
+  * [Elena Barbour](https://elenambarbour.github.io/)
+  
+
