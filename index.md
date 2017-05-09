@@ -32,19 +32,19 @@ Logged out users are presented with information about Adventure Portal and are u
 ### Home Page
 After logging in, the user's dashboard with recent/popular activities and upcoming events are displayed as these suggestions are based on the interests listed in the user's profile. For a new user with no added activities, the Portal will ask the user to update his/her interests in order to present similar related activities. 
 
-![](images/Dashboard1.PNG)
-![](images/Dashboard2.PNG)
+![](images/Dashboard1.png)
+![](images/Dashboard2.png)
 
 ### Find Adventures Page
 Users can find new adventures created by the community and sort by the most popular or upcoming events. In additions, filters such as highest rated, interest tags, and activity location allow users to quickly search community favorites. Users are able to pin and favorite adventures that interest them which will be saved to their dashboard. 
 
-![](images/Filter-page.PNG)
+![](images/Filter-page.png)
 
 ### My Profile Page
 Your profile page is where you can write your bio, list your interests, and view your pinned/favorited activities. You should make sure to edit your interests to make discovering new adventures easier!
 
-![](images/Edit-profile-page.PNG)
-![](images/profile-page.PNG)
+![](images/Edit-profile-page.png)
+![](images/profile-page.png)
 
 ### Unauthorized Page
 In case the user tries to navigate anywhere without signing in or lacking authorization. Sometimes you want to "accidently" go into another user's personal space. Sorry, we don't allow that! But don't worry, we'll directly you back safely!
