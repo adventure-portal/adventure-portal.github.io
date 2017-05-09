@@ -223,7 +223,7 @@ We received the following feedback:
   * Add a button to clear all filters
   * Make it so all interest tags are not already shown
 
-* Contributors
+# Contributors
   * [Nathan Lam](https://nathancy.github.io/)
   * [Dylan Nakahodo](https://dylannakahodo.github.io/)
   * [Elena Barbour](https://elenambarbour.github.io/)
