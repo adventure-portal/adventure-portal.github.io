@@ -32,9 +32,8 @@ Logged out users are presented with information about Adventure Portal and are u
 ### Home Page
 After logging in, the user's dashboard with recent/popular activities and upcoming events are displayed as these suggestions are based on the interests listed in the user's profile. For a new user with no added activities, the Portal will ask the user to update his/her interests in order to present similar related activities. 
 
-![](images/dashboard-1.PNG)
-![](images/dashboard-2.PNG)
-![](images/dashboard-3.PNG)
+![](images/dashboard1.PNG)
+![](images/dashboard2.PNG)
 
 ### Find Adventures Page
 Users can find new adventures created by the community and sort by the most popular or upcoming events. In additions, filters such as highest rated, interest tags, and activity location allow users to quickly search community favorites. Users are able to pin and favorite adventures that interest them which will be saved to their dashboard. 
