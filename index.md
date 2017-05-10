@@ -40,6 +40,11 @@ Users can find new adventures created by the community and sort by the most popu
 
 ![](images/Filter-page.png)
 
+### Add Adventures Page
+Users can add their own adventures to share with the community!
+
+![](images/add-activity.png)
+
 ### My Profile Page
 Your profile page is where you can write your bio, list your interests, and view your pinned/favorited activities. You should make sure to edit your interests to make discovering new adventures easier!
 
