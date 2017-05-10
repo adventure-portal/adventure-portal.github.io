@@ -177,7 +177,7 @@ Milestone 3 was implemented as [Adventure Portal GitHub Milestone M3](https://gi
 
 Milestone 3 consisted of seven issues, and progress was managed via the [Adventure Portal GitHub Project M3](https://github.com/adventure-portal/adventure-portal/projects/3):
 
-![](images/m3-project.JPG)
+![](images/m3-project.jpg)
 
 Each issue was implemented on its own branch, and merged into master when completed:
 
