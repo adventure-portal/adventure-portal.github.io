@@ -18,7 +18,7 @@ Let Adventure Portal help you explore your interests and help you embark on your
 * Create profiles that list your interests
 * Create activities that other people can browse and join
 * Secure login via the UH authentication system
-* Browse for new activites and adventures based on your interests
+* Browse for new activities and adventures based on your interests
 
 # Guided Tour
 ### Landing Page
@@ -82,14 +82,14 @@ meteor npm run start
 From here, you can use the editor of your choice to begin modifying Adventure Portal's files. Note that Adventure Portal uses the coding style preferences described by this xml [file](http://courses.ics.hawaii.edu/ics314f16/morea/development-environments/ics-se-code-style.xml). To get an idea of the project structure, it is helpful to note that Adventure Portal is based on the meteor-application-template available [here](https://ics-software-engineering.github.io/meteor-application-template/).
 
 # Development History
-The development process for Adventure Portal consisted of a sequence of milestones which included issues corresponding to 2-3 day tasks. Github projects were used to manage the processing of tasks during a milestone. 
+The development process for Adventure Portal consisted of a sequence of milestones which included issues corresponding to 2-3 day tasks. GitHub projects were used to manage the processing of tasks during a milestone. 
 
 The following sections document the development history of Adventure Portal.
 
 ## Milestone 1: Basic Product and Deployment
 The objective was to complete minimum viable product development of Adventure Portal. Milestone 1 was completed on April 13, 2017.
 
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. Each page was developed as a template and [FlowRouter](https://github.com/kadirahq/flow-router) was used to implement routing to the pages. For login authorization using the University of Hawaii test CAS system, templates from [meteor-example-uh](http://ics-software-engineering.github.io/meteor-example-uh-cas/) were used to guide the implementation. Adventure Portal allows anyone with a UH account to access the system.In addition, authorization was implemented such that users cannot access the profile or filter page associated with another user.
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. Each page was developed as a template and [FlowRouter](https://github.com/kadirahq/flow-router) was used to implement routing to the pages. For login authorization using the University of Hawaii test CAS system, templates from [meteor-example-uh](http://ics-software-engineering.github.io/meteor-example-uh-cas/) were used to guide the implementation. Adventure Portal allows anyone with a UH account to access the system. In addition, authorization was implemented such that users cannot access the profile or filter page associated with another user.
 
 The following pages were implemented:
 * Landing Page
@@ -106,9 +106,9 @@ The following features were implemented:
 
 Stretch goals
 * ~~Calendar Page~~ (Pushed back)
-  * ~~User can view different activites on a calendar~~
-  * ~~Able to filter activites by tags and/or location~~
-* ~~Activites Creation Page~~ (Pushed back)
+  * ~~User can view different activities on a calendar~~
+  * ~~Able to filter activities by tags and/or location~~
+* ~~Activities Creation Page~~ (Pushed back)
   * ~~Fields~~
     * ~~Title~~
     * ~~Description~~
@@ -131,7 +131,7 @@ Each issue was implemented in its own branch, and merged into master when comple
 ## Milestone 2: Data Models, Routing, and UI
 The objective was to implement data collections to hold user profiles/activities, dynamic routing, and UI upgrades. Milestone 2 was completed on April 27, 2017. 
 
-The goal for Milestone 2 was to implement tests for the data models, complete the ActivitesCollection and UsersCollection, connect data models to the UI, provide dynamic routing from cards, icons, and buttons, implement dynamic page authentication routing, and to continue working on the UI and layout of the site. The main goal was to implement the data models: the underlying set of Mongo Collections and the operations upon them that would support the Adventures Portal application. We implemented the data model as a set of JavaScript classes. The ActivitiesCollection class and the UsersCollection class provides common fields and operations as these two classes inherit from BaseCollection and provided the persistent data structures useful for Adventure Portal. 
+The goal for Milestone 2 was to implement tests for the data models, complete the ActivitiesCollection and UsersCollection, connect data models to the UI, provide dynamic routing from cards, icons, and buttons, implement dynamic page authentication routing, and to continue working on the UI and layout of the site. The main goal was to implement the data models: the underlying set of Mongo Collections and the operations upon them that would support the Adventures Portal application. We implemented the data model as a set of JavaScript classes. The ActivitiesCollection class and the UsersCollection class provides common fields and operations as these two classes inherit from BaseCollection and provided the persistent data structures useful for Adventure Portal. 
 
 The following pages were implemented:
 * Loading/Spinner Page
@@ -139,7 +139,7 @@ The following pages were implemented:
 The following features were implemented:
 * Dynamic routing for all pages
 * User authorization
-* ActiviesCollection, UsersCollection, and InterestsCollection
+* ActivitiesCollection, UsersCollection, and InterestsCollection
 * Data model connection to pages
 * Landing page animations
 * More content on all pages
@@ -185,7 +185,7 @@ Each issue was implemented on its own branch, and merged into master when comple
 
 # Initial User Study
 
-We surveyed five members of the UH community. We gathered feedback by asking the test users to perform the tasks of adding, editing, and saving an activity, filterting through activities, and browsing through adventures to see if there were any points of confusion along the way. We had the following people test the application.
+We surveyed five members of the UH community. We gathered feedback by asking the test users to perform the tasks of adding, editing, and saving an activity, filtering through activities, and browsing through adventures to see if there were any points of confusion along the way. We had the following people test the application.
 
 * Allie Kim
 * Kevin Wong
@@ -198,7 +198,7 @@ We received the following feedback:
 * User Experience
   * UH CAS is great
   * Favorite button should be larger
-  * Hide menubar when scrolling down
+  * Hide menu bar when scrolling down
   * Entire cards should be clickable
   * Be able to upload profile pictures instead of linking urls only
   * Editing profile is streamlined
