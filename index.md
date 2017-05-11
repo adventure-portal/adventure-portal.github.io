@@ -13,7 +13,7 @@
 
 Let Adventure Portal help you explore your interests and help you embark on your next adventure.
 
-### Try Adventure Portal Now! [Adventure Portal](http://adventure-portal.meteorapp.com)
+[Try Adventure Portal Now! (Galaxy-based deployment currently disabled. Check back later to see if a public deployment is available.)](http://adventure-portal.meteorapp.com)
 ## Key Features
 * Create profiles that list your interests
 * Create activities that other people can browse and join
@@ -163,6 +163,7 @@ The objective of Milestone 3 is to implement a saving feature so users can save 
 
 The following pages were implemented:
 * Dynamic activity detail page
+* Add adventures page 
 
 The following features were implemented:
 * Initial database adventures
@@ -170,6 +171,7 @@ The following features were implemented:
 * Filtering/Search
 * Dashboard/Find adventure page UI upgrades
 * Save adventures to profile page
+* Rate adventures option
 
 Milestone 3 was implemented as [Adventure Portal GitHub Milestone M3](https://github.com/adventure-portal/adventure-portal/milestone/3?closed=1):
 
