@@ -13,7 +13,7 @@
 
 Let Adventure Portal help you explore your interests and help you embark on your next adventure.
 
-[Try Adventure Portal Now! (Galaxy-based deployment currently disabled. Check back later to see if a public deployment is available.)](http://adventure-portal.meteorapp.com)
+### [Try Adventure Portal Now! (Galaxy-based deployment currently disabled. Check back later to see if a public deployment is available.)](http://adventure-portal.meteorapp.com)
 ## Key Features
 * Create profiles that list your interests
 * Create activities that other people can browse and join
